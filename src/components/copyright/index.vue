@@ -28,7 +28,7 @@ export default {
           href: 'https://help.crmeb.net'
         }
       ],
-      copyright: 'Copyright © 2021 西安众邦网络科技有限公司'
+      copyright: '在线客服系统'
     }
   },
   mounted () {
