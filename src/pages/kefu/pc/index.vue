@@ -108,12 +108,12 @@
             </div>
           </div>
         </div>
-        <div class="right_menu">
-          <rightMenu :isTourist="tourist" :uid="userActive.to_user_id" :webType="userActive.type" @bindPush="bindPush"></rightMenu>
-          <div class="crmchat_link" @click="tolink">
-            <span>CRMChat开源客服系统</span>
-          </div>
-        </div>
+<!--        <div class="right_menu">-->
+<!--          <rightMenu :isTourist="tourist" :uid="userActive.to_user_id" :webType="userActive.type" @bindPush="bindPush"></rightMenu>-->
+<!--          <div class="crmchat_link" @click="tolink">-->
+<!--            <span>CRMChat开源客服系统</span>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
       <!-- 用户标签 -->
       <Modal v-model="isMsg" :mask="true" class="none-radius isMsgbox" width="600" :footer-hide="true">

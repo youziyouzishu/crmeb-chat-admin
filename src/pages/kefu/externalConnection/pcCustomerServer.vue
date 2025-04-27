@@ -133,25 +133,25 @@
                             </div>
 
                         </div>
-                        <div class="pc_customerServer_container_footer_copyright" @click="tolink"
-                             v-if="upperData.noCanClose != '1' && upperData.windowStyle != `center`">
-                            <span>CRMChat开源客服系统</span>
-                        </div>
+<!--                        <div class="pc_customerServer_container_footer_copyright" @click="tolink"-->
+<!--                             v-if="upperData.noCanClose != '1' && upperData.windowStyle != `center`">-->
+<!--                            <span>CRMChat开源客服系统</span>-->
+<!--                        </div>-->
                         <!-- 相关操作结束 -->
 
                     </div>
                     <!-- 内容输入结束 -->
                 </div>
 
-                <div class="pc_customerServer_container_advertisement"
-                     v-if="upperData.noCanClose == '1' || upperData.windowStyle == `center`">
-                    <div class="advertisement">
-                        <div v-html="advertisement"></div>
-                        <div class="copyright" @click="tolink">
-                            <span>CRMChat开源客服系统</span>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="pc_customerServer_container_advertisement"-->
+<!--                     v-if="upperData.noCanClose == '1' || upperData.windowStyle == `center`">-->
+<!--                    <div class="advertisement">-->
+<!--                        <div v-html="advertisement"></div>-->
+<!--                        <div class="copyright" @click="tolink">-->
+<!--                            <span>CRMChat开源客服系统</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
 
         </div>
